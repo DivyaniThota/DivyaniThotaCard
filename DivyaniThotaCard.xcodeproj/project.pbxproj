@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D79747552B71D81C0023B95F /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D79747542B71D81C0023B95F /* Pacifico-Regular.ttf */; };
+		D797478C2B71E83C0023B95F /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D797478B2B71E83C0023B95F /* InformationView.swift */; };
 		D7F8CE372B71D45C00E3EDC1 /* DivyaniThotaCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CE362B71D45C00E3EDC1 /* DivyaniThotaCardApp.swift */; };
 		D7F8CE392B71D45C00E3EDC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CE382B71D45C00E3EDC1 /* ContentView.swift */; };
 		D7F8CE3B2B71D45F00E3EDC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F8CE3A2B71D45F00E3EDC1 /* Assets.xcassets */; };
@@ -14,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D79747542B71D81C0023B95F /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		D797478A2B71DBCD0023B95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D797478B2B71E83C0023B95F /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
 		D7F8CE332B71D45C00E3EDC1 /* DivyaniThotaCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DivyaniThotaCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F8CE362B71D45C00E3EDC1 /* DivyaniThotaCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivyaniThotaCardApp.swift; sourceTree = "<group>"; };
 		D7F8CE382B71D45C00E3EDC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D79747532B71D7FA0023B95F /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D79747542B71D81C0023B95F /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		D7F8CE2A2B71D45C00E3EDC1 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +64,11 @@
 		D7F8CE352B71D45C00E3EDC1 /* DivyaniThotaCard */ = {
 			isa = PBXGroup;
 			children = (
+				D797478A2B71DBCD0023B95F /* Info.plist */,
+				D79747532B71D7FA0023B95F /* fonts */,
 				D7F8CE362B71D45C00E3EDC1 /* DivyaniThotaCardApp.swift */,
 				D7F8CE382B71D45C00E3EDC1 /* ContentView.swift */,
+				D797478B2B71E83C0023B95F /* InformationView.swift */,
 				D7F8CE3A2B71D45F00E3EDC1 /* Assets.xcassets */,
 				D7F8CE3C2B71D45F00E3EDC1 /* Preview Content */,
 			);
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D79747552B71D81C0023B95F /* Pacifico-Regular.ttf in Resources */,
 				D7F8CE3E2B71D45F00E3EDC1 /* Preview Assets.xcassets in Resources */,
 				D7F8CE3B2B71D45F00E3EDC1 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D797478C2B71E83C0023B95F /* InformationView.swift in Sources */,
 				D7F8CE392B71D45C00E3EDC1 /* ContentView.swift in Sources */,
 				D7F8CE372B71D45C00E3EDC1 /* DivyaniThotaCardApp.swift in Sources */,
 			);
@@ -275,6 +293,7 @@
 				DEVELOPMENT_TEAM = 25U3T3T2T8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DivyaniThotaCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +323,7 @@
 				DEVELOPMENT_TEAM = 25U3T3T2T8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DivyaniThotaCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
